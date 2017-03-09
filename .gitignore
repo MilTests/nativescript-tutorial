@@ -1,5 +1,7 @@
 .DS_Store
 Groceries/.idea
+Groceries/.DS_Store
 Groceries/node_modules
 HelloWorld/.idea
+HelloWorld/.DS_Store
 HelloWorld/node_modules
