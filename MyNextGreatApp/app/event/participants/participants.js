@@ -1,0 +1,8 @@
+"use strict";
+var Participants = (function () {
+    function Participants() {
+    }
+    return Participants;
+}());
+exports.Participants = Participants;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicGFydGljaXBhbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsicGFydGljaXBhbnRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQTtJQUFBO0lBS0EsQ0FBQztJQUFELG1CQUFDO0FBQUQsQ0FBQyxBQUxELElBS0M7QUFMWSxvQ0FBWSIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBjbGFzcyBQYXJ0aWNpcGFudHMge1xuICAgIGF0dGVuZGVlczogc3RyaW5nO1xuICAgIG9yZ2FuaXplcnM6IHN0cmluZztcbiAgICBleGhpYml0b3JzOiBzdHJpbmc7XG4gICAgc3BvbnNvcnM6IHN0cmluZztcbn0iXX0=

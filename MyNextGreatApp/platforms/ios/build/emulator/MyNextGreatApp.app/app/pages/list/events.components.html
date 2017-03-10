@@ -1,0 +1,26 @@
+<ActionBar title="Events" class="action-bar"></ActionBar>
+
+<TabView #tabview [selectedIndex]="tabindex" sdkExampleTitle sdkToggleNavButton>
+    <StackLayout *tabItem="{title: 'Search Events'}">
+        <StackLayout>
+            <SearchBar #sb hint="Search" [text]="searchPhrase" (submit)="onSubmit(sb.text)"></SearchBar>
+        </StackLayout>
+
+        <ListView [items]="events" class="list-group">
+            <template let-item="item">
+                <Label [text]="item.name" class="list-group-item"></Label>
+            </template>
+        </ListView>
+    </StackLayout>
+
+    <StackLayout *tabItem="{title: 'All Events'}">
+        <ListView [items]="events" class="list-group">
+            <template let-item="item">
+                <GridLayout>
+                    <Image src="https://placeholdit.imgix.net/~text?txtsize=11&txt=cover&w=16&h=16&txttrack=0" horizontalAlignment="left"></Image>
+                    <Label [text]="item.name" class="list-group-item" horizontalAlignment="center"></Label>
+                </GridLayout>
+            </template>
+        </ListView>
+    </StackLayout>
+</TabView>
