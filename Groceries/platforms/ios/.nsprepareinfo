@@ -1,7 +1,7 @@
 {
-	"time": "Thu Mar 09 2017 20:55:38 GMT+0300 (MSK)",
+	"time": "Fri Mar 10 2017 14:09:36 GMT+0300 (MSK)",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": true,
-	"changesRequireBuildTime": "Thu Mar 09 2017 20:55:38 GMT+0300 (MSK)"
+	"changesRequireBuild": false,
+	"changesRequireBuildTime": "Fri Mar 10 2017 13:59:55 GMT+0300 (MSK)"
 }
